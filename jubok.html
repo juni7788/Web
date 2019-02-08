@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html style="background-color:honeydew">
+    <head>
+        <link rel="shortcut icon" type="image⁄x-icon" href="C:\Javascript\letter-j.png">
+        <meta charset="utf-8">
+        <title> Welcome to Juni World </title>
+        <style>
+            #topmenu {
+                height: 60px;
+                width: 100%;
+                border-collapse: collapse;
+                table-layout: fixed;
+            }
+            #topmenu ul {
+                list-style-type: none;
+                background-color: rgb(53, 42, 42);
+                padding: 3px 2px 3px 2px;
+                float: left;
+            }
+            #topmenu ul li {
+                float: left;
+                border: 1px solid white;
+                margin: 5px 0px 5px 0px;
+
+                color: white;
+                font-size: 9pt;
+            }
+            #topmenu .link {
+                text-decoration: none;
+                color:rgb(202, 155, 155);
+                width: 170px;
+                display: block;
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+            }
+            #topmenu .link:hover {
+                color: rgb(192, 32, 32);
+                background-color: rgb(187, 170, 170);
+            }
+            #topmenu ul ul {
+                display: none;
+                position: absolute;
+            }
+            #topmenu ul li:hover ul {
+                display: block;
+            }
+            #topmenu ul ul li {
+                float: none;
+                width: 200px;
+                height: 20px;
+                font: 8px;
+                text-align: center;
+            }
+            #topmenu ul ul a{
+                text-decoration: none;
+                color: white;
+            }
+            #topmenu ul ul li:hover a {
+                color: red;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav id = "topmenu"> 
+            <ul>
+                <li><a class="link" href="#"> Custom </a></li>
+                <li><a class="link" href="#"> Passion </a></li>
+                <li><a class="link" href="#"> Speciality </a>
+                    <ul>
+                        <li><a href="#"> OS </a></li>
+                        <li><a href="#"> Network </a></li>
+                        <li><a href="#"> Java </a></li>
+                    </ul>
+                </li>
+                <li><a class="link" href="#"> Active </a></li>
+            </ul>
+        </nav>
+    </body>
+</html>
